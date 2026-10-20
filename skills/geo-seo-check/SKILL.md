@@ -1,6 +1,6 @@
 ---
 name: geo-seo-check
-description: Check and track how visible a website is in AI search and Google. Use when the user asks whether ChatGPT, Claude, Perplexity, Gemini or Google AI Overviews recommend or cite their business, asks about AI visibility, GEO, generative engine optimization, AEO or LLM visibility, wants an SEO audit of their website, or asks for their Smartypant GEO or SEO report.
+description: Live GEO and SEO audit of a website with real answers from ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews. Use when the user asks "is my business recommended by ChatGPT", "is my website visible in AI search", "how does my brand appear in AI", "which competitors does AI recommend", "AI visibility", "AI visibility audit", "GEO", "GEO audit", "generative engine optimization", "AEO", "answer engine optimization", "AI SEO", "LLM visibility", "AI mentions", "AI citations", "audit my site", "SEO audit", "check my site's SEO", "SEO health check", "find SEO issues", "KI-Sichtbarkeit", "GEO-Optimierung", or asks for their Smartypant GEO or SEO report.
 ---
 
 To check a website and show the results:
