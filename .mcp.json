@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "smartypant-geo": {
+      "type": "http",
+      "url": "https://geo.smartypant.xyz/mcp"
+    }
+  }
+}
