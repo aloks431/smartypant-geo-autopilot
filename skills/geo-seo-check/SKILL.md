@@ -7,6 +7,7 @@ To check a website and show the results:
 
 1. If the user wants a new check, call `start_visibility_check` with the website address. The check runs in the background and usually takes 5 to 10 minutes, longer for large sites. Tell the user to ask for the report afterwards.
 2. To show results, call `show_visibility_report`. Pass `website` when the user names one. If the check is still running, tell the user how long it has been running and to ask again in a few minutes.
+   To compare checks or show how visibility changed, use `check_history` from the report, and call `show_visibility_report` again with `check_number` (2 = the check before the latest) to open an earlier check in full.
 3. Present the report in two parts, AI visibility first, then SEO:
    - AI visibility: the score and its band, the score parts, how many answers were checked and how many cited the website, the results per assistant, how the assistants recognize the brand and its sentiment, a short table of the questions (who recommends or cites the business, who only mentions it, who leaves it out, and which competitors they name instead), what the assistants actually said, the competitors and the sources AI cites most, what the assistants searched for before answering, the AI readiness checks of the website, and the top findings by priority.
    - SEO: the health score and its parts, the measured checks (worst first), the number of findings, and the top findings by priority.
