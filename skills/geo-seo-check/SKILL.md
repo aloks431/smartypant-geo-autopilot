@@ -5,7 +5,7 @@ description: Live GEO and SEO audit of a website with real answers from ChatGPT,
 
 To check a website and show the results:
 
-1. If the user wants a new check, call `start_visibility_check` with the website address. The check runs in the background and usually takes 5 to 10 minutes, longer for large sites. Tell the user to ask for the report afterwards.
+1. If the user wants a new check, call `start_visibility_check` with the website address. The check runs in the background. Tell the user how long it usually takes (`usually_takes_minutes`) and when to ask for the report (`check_again_in_minutes`).
 2. To show results, call `show_visibility_report`. Pass `website` when the user names one. If the check is still running, tell the user how long it has been running and to ask again in a few minutes.
    To show how visibility changed over time, use `check_history` from the report: it lists the website's checks (up to 20, numbered from 1 = latest) with date and scores, so you can show the trend week by week.
    To compare checks in detail, call `show_visibility_report` again with `check_number` to open any earlier check in full (2 = the check before the latest, 3 = the one before that, and so on).
